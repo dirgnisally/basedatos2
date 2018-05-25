@@ -5,17 +5,17 @@
 #include <string>
 using namespace std;
 
-class MachineEvents
+class MachineEvents12
 {
 	private :
-		string timestamp;
+		string timestamp_;
 		int machine_id;
 		int event_type;
 		int plataform_id;
 		int capacity_cpu;
 		int capacity_memory;
 	public : 
-		MachineEvents();
+		MachineEvents12();
 		string getTimestamp();
 		int getMachine_id();
 		int getEvent_type();
@@ -28,7 +28,7 @@ class MachineEvents
 		void setEvent_type(int e);
 		void setPlataform_ide(int p);
 		void setCapacity_cpu(int c);
-		void setCapacity_memory(int ca);
+		void setCapacity_memory(int ca); 
 
 };
 #endif
